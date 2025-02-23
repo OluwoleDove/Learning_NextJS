@@ -1,0 +1,9 @@
+INITIALIZE PROJECT
+npx create-next-app@latest taskmaster --typescript --tailwind --app
+cd taskmaster
+
+Install MySQL & Sequelize ORM
+npm install sequelize mysql2 dotenv
+
+
+
