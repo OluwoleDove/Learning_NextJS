@@ -5,5 +5,8 @@ cd taskmaster
 Install MySQL & Sequelize ORM
 npm install sequelize mysql2 dotenv
 
+npm install --save-dev ts-node typescript @types/node
 
+
+npm run sync-db
 

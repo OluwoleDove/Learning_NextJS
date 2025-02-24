@@ -1,9 +1,7 @@
 import { NextResponse } from "next/server";
 import Task from "@models/Task";
 
-/**
- * GET - Retrieve all tasks
- */
+/* GET - Retrieve all tasks */
 export async function GET() {
   try {
     const tasks = await Task.findAll();
@@ -13,9 +11,7 @@ export async function GET() {
   }
 }
 
-/**
- * POST - Create a new task
- */
+/* POST - Create a new task */
 export async function POST(req: Request) {
   try {
     const { title } = await req.json();
